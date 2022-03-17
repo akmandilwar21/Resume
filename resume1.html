@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <header>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load icon font -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- load MUI -->
+    <link href="http://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="http;//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
         <style>
             body{
                 margin: 0;
@@ -69,22 +77,58 @@
     <body>
         <div class="container">
             <div class="header"> 
-                <div class="header_name">
-                  <div class="name">Akash Mandilwar</div>
-                  <div class="linkedIn">LinkedIn:  <a href="https://www.linkedin.com/in/akash-mandilwar-16a85713b/">akash-mandilwar-16a85713b</a></div>
-                </div>
-                <div class="header_name">
-                    <div class="linkedIn">Contact No: +917903121655</div>
-                    <div class="github">Github:  <a href="https://github.com/akmandilwar21">akmandilwar21</a></div>
-                </div>
-                <div class="linkedIn">Email: akmandilwar21@gmail.com</div>
+                <table width="100%">
+                    <tr style="vertical-align:middle;">
+                      <td class="name mui--appbar-height">Akash Mandilwar</td>
+                      <td class="linkedIn mui--appbar-height" align="right">LinkedIn:  <a href="https://www.linkedin.com/in/akash-mandilwar-16a85713b/">akash-mandilwar-16a85713b</a></td>
+                    </tr>
+                </table>
+                <table width="87.5%">
+                    <tr style="vertical-align:middle;">
+                      <td class="linkedIn mui--appbar-height">Contact No: +917903121655</td>
+                      <td class="github mui--appbar-height" align="right">Github:  <a href="https://github.com/akmandilwar21">akmandilwar21</a></td>
+                    </tr>
+                    <tr style="vertical-align:middle;">
+                        <td class="linkedIn mui--appbar-height">Email: akmandilwar21@gmail.com</td>
+                      </tr>
+                </table>
             </div>
             <div class="education">
                 <div class="header-Education">
                     <div class="line"></div>
                     <div style="font-size:30px;margin-top: 34px;margin-left: 5px;">Education</div>
                 </div>
-                <div class="marks">
+                <table class="mui-table">
+                    <thead>
+                      <tr style="border:1px solid">
+                        <th style="font-size: 20px;text-align:center;">Year</th>
+                        <th style="font-size: 20px;text-align:center;">Degree/Examination</th>
+                        <th style="font-size: 20px;text-align:center;">Institute/Board</th>
+                        <th style="font-size: 20px;text-align:center;">CGPA/Percentage</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="border:1px solid">
+                        <td style="font-size: 20px;text-align:center;">2020</td>
+                        <td style="font-size: 20px;text-align:center;">Bachelor of Technology</td>
+                        <td style="font-size: 20px;text-align:center;">Mangalmay Institute of Engineering and Technology</td>
+                        <td style="font-size: 20px;text-align:center;">7.07/10.0</td>
+                      </tr>
+                      <tr style="border:1px solid"> 
+                        <td style="font-size: 20px;text-align:center;">2015</td>
+                        <td style="font-size: 20px;text-align:center;">Intermediate (Class XII)</td>
+                        <td style="font-size: 20px;text-align:center;">D.A.V Public School</td>
+                        <td style="font-size: 20px;text-align:center;">66.67%</td>
+                      </tr>
+                      <tr style="border:1px solid">
+                        <td style="font-size: 20px;text-align:center;">2013</td>
+                        <td style="font-size: 20px;text-align:center;">Marticulation (Class X)</td>
+                        <td style="font-size: 20px;text-align:center;">J.M.V Residential School</td>
+                        <td style="font-size: 20px;text-align:center;">8.4/10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                <!-- <div class="marks">
                     <div class="table">
                         <div >Year</div>
                         <div >Degree/Examination</div>
@@ -109,7 +153,7 @@
                         <div >J.M.V Residential School</div>
                         <div >8.4/10</div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="experience">
                 <div class="header-Education">
@@ -117,12 +161,18 @@
                     <div style="font-size:30px;margin-top: 34px;margin-left: 5px;">Experience</div>
                 </div>
                 <div class="company">
-                    <div class="company-name">
+                    <table width="100%">
+                    <tr style="vertical-align:middle;">
+                      <td class="mui--appbar-height"><span style="font-weight: bold;font-size: 25px;">Madgical Techdom Pvt. Ltd |</span><span style="font-size: 20px">  Full Stack Developer</span></td>
+                      <td class="mui--appbar-height" style="font-size: 20px" align="right">(June 2021 - February 2022)</td>
+                    </tr>
+                </table>
+                    <!-- <div class="company-name">
                         <div><span style="font-weight: bold;">Madgical Techdom Pvt. Ltd</span><span> | Full Stack Developer</span></div>
                         <div>June 2021 - February 2022</div>
-                    </div>
+                    </div> -->
                     <ul>
-                        <li>Design and Manage APIs in Node.js.</li>
+                        <li>Design and Manage APIs in Node.js.</li> 
                         <li>Design the front-end in JavaScript and ReactJS with the help of HTML& CSS.</li>
                         <li>Database connectivity through Node APIs.</li>
                         <li>Maintaining the UI of a business website i.e. www.rvinsider.com and www.cycleinsider.com.</li>
@@ -133,13 +183,19 @@
             <div class="internship">
                 <div class="header-Education">
                     <div class="line"></div>
-                    <div style="font-size:30px;margin-top: 34px;margin-left: 5px;">Experience</div>
+                    <div style="font-size:30px;margin-top: 34px;margin-left: 5px;">Internship</div>
                 </div>
                 <div class="company">
-                    <div class="company-name">
+                    <table width="100%">
+                        <tr style="vertical-align:middle;">
+                          <td class="mui--appbar-height"><span style="font-weight: bold;font-size: 25px;">MilestoneOs private Limited |</span><span style="font-size: 20px">  Full Stack Developer</span></td>
+                          <td class="mui--appbar-height" style="font-size: 20px" align="right">(April 2020 - October 2020)</td>
+                        </tr>
+                    </table>
+                    <!-- <div class="company-name">
                         <div><span style="font-weight: bold;">MilestoneOs private Limited</span><span> | Full Stack Developer</span></div>
                         <div>April 2020 - October 2020</div>
-                    </div>
+                    </div> -->
                     <ul>
                         <li>Completed 7 months of training on full-stack.</li>
                         <li>Learnt Tech Stack: HTML, CSS, JavaScript, React, Node, MongoDB .</li>
@@ -147,10 +203,16 @@
                     </ul>
                 </div>
                 <div class="company">
-                    <div class="company-name">
+                    <table width="100%">
+                        <tr style="vertical-align:middle;">
+                          <td class="mui--appbar-height"><span style="font-weight: bold;font-size: 25px;">Newton School |</span><span style="font-size: 20px">  Full Stack Developer</span></td>
+                          <td class="mui--appbar-height" style="font-size: 20px" align="right">(July 2021 - January 2022)</td>
+                        </tr>
+                    </table>
+                    <!-- <div class="company-name">
                         <div><span style="font-weight: bold;">Newton School</span><span> | Full Stack Developer</span></div>
                         <div>July 2021 - January 2022</div>
-                    </div>
+                    </div> -->
                     <ul>
                         <li>Completed 6 months of training on full-stack.</li>
                         <li>Learnt Tech Stack: DSA, HTML, CSS, JavaScript, React, Node, MongoDB,GIT .</li>
@@ -164,10 +226,16 @@
                     <div style="font-size:30px;margin-top: 34px;margin-left: 5px;">Projects</div>
                 </div>
                 <div class="company">
-                    <div class="company-name">
+                    <table width="100%">
+                        <tr style="vertical-align:middle;">
+                          <td class="mui--appbar-height"><span style="font-weight: bold;font-size: 25px;">Clone App of BookMyShow |</span><span style="font-size: 20px">  Indivisual</span></td>
+                          <td class="mui--appbar-height" style="font-size: 20px" align="right">(January 2021 - January 2021)</td>
+                        </tr>
+                    </table>
+                    <!-- <div class="company-name">
                         <div><span style="font-weight: bold;">Clone App of BookMyShow</span><span> | Indivisual<a href="https://bkyow-22da6.firebaseapp.com/home" target="_blank">(link)</a></span></div>
                         <div>January 2021 - January 2021</div>
-                    </div>
+                    </div> -->
                     <ul>
                         <li>Features: Clone Website of BookMyShow</li>
                         <li>Tech Stack: HTML,CSS,JavaScript, React,Node js</li>
@@ -175,10 +243,16 @@
                     </ul>
                 </div>
                 <div class="company">
-                    <div class="company-name">
+                    <table width="100%">
+                        <tr style="vertical-align:middle;">
+                          <td class="mui--appbar-height"><span style="font-weight: bold;font-size: 25px;">Tip Calculator |</span><span style="font-size: 20px">  Indivisual</span></td>
+                          <td class="mui--appbar-height" style="font-size: 20px" align="right">(November 2021 - November 2021)</td>
+                        </tr>
+                    </table>
+                    <!-- <div class="company-name">
                         <div><span style="font-weight: bold;">Tip Calculator</span><span> | Indivisual <a href="https://tipcalculator21.000webhostapp.com/" target="_blank">(link)</a></span></div>
                         <div>November 2021 - November 2021</div>
-                    </div>
+                    </div> -->
                     <ul>
                         <li>Features: Calculate Tip by giving total amount and number of person.</li>
                         <li>It has authentication after successful log-in, you will land on the dashboard.</li>
@@ -192,7 +266,21 @@
                     <div class="line"></div>
                     <div style="font-size:30px;margin-top: 34px;margin-left: 5px;">Skills</div>
                 </div>
-                <div class="skills">
+                <table width="50%">
+                    <tr style="vertical-align:middle;font-size: 20px;">
+                      <td class="name mui--appbar-height" style="font-size: 25px;">Languages</td>
+                      <td class="linkedIn mui--appbar-height" style="font-size: 25px;">C,JavaScript, ReactJs</td>
+                    </tr>
+                    <tr style="vertical-align:middle;">
+                        <td class="name mui--appbar-height" style="font-size: 25px;">Markup languages</td>
+                        <td class="linkedIn mui--appbar-height" style="font-size: 25px;">HTML, CSS</td>
+                    </tr>
+                    <tr style="vertical-align:middle;">
+                        <td class="name mui--appbar-height" style="font-size: 25px;">Database</td>
+                        <td class="linkedIn mui--appbar-height"  style="font-size: 25px;">MySQL, MongoDB</td>
+                    </tr>
+                </table>
+                <!-- <div class="skills">
                     <div style="border:1px solid;display: flex;justify-content: center;">Languages </div>
                     <div style="border: 1px solid;display: flex;justify-content: center;">C,JavaScript, ReactJs</div>
                 </div>
@@ -203,7 +291,7 @@
                 <div class="skills">
                     <div style="border:1px solid;display: flex;justify-content: center;">Database </div>
                     <div style=" border: 1px solid;display: flex;justify-content: center;">MySQL, MongoDB</div>
-                </div>
+                </div> -->
             </div>
 
         </div>
